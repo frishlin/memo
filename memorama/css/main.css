@@ -1,0 +1,56 @@
+body {
+ background-color: black;
+ font-family:sans-serif;
+ color: white;
+}
+
+hr{
+ border: 2px solid black;
+}
+
+div {
+ background-image: url("../assets/img/logo_lab.png");
+ background-position: center;
+ background-size: cover;
+}
+
+.efects{
+  transform-style: preserve-3d;
+  transition: 2s;
+}
+
+
+.rotation-efect{
+  transform: rotateY(180deg);
+}
+
+.card {
+  border: 1px solid black;
+  float: left;
+  height: 200px;
+  margin: 4% 7%;
+  width: 18%;
+
+ }
+
+ .card-1:hover {
+   background-image: url("../assets/img/cabin.png");
+   background-position: center;
+ }
+
+ .card-2:hover {
+   background-image: url("../assets/img/cake.png");
+   background-position: center;
+ }
+
+ .card-3:hover {
+   background-image: url("../assets/img/circus.png");
+ }
+
+ .card-4:hover {
+   background-image: url("../assets/img/game.png");
+ }
+
+ .card-comodin:hover {
+   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Pac_Man.svg/385px-Pac_Man.svg.png);
+ }
